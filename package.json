@@ -4,7 +4,7 @@
     "description": "minimal setup",
     "main": "index.js",
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "dev": "vite"
     },
     "repository": {
         "type": "git",
@@ -15,5 +15,12 @@
     "bugs": {
         "url": "https://github.com/Alessandrosss/setup_react_withTypescript/issues"
     },
-    "homepage": "https://github.com/Alessandrosss/setup_react_withTypescript#readme"
+    "homepage": "https://github.com/Alessandrosss/setup_react_withTypescript#readme",
+    "dependencies": {
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0"
+    },
+    "devDependencies": {
+        "vite": "^4.0.2"
+    }
 }
